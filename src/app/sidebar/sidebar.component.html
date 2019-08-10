@@ -1,0 +1,37 @@
+<mat-drawer-container class="example-container" style="height:100vh" autosize>
+  <mat-drawer #drawer class="example-sidenav" style="width:20%" mode="side">
+    <div class="c m-1 top">
+      <img src="../../assets/adminLogo.png" alt="" />
+    </div>
+    <div class="headings p1 m-0" *ngFor="let item of populate">
+      <mat-icon class="start">home</mat-icon>
+      <a (click)="item.showFiller = !item.showFiller">
+        <span style="vertical-align: center"
+          >{{ item.mainHeading
+          }}<mat-icon class="end">arrow_back_ios</mat-icon></span
+        >
+      </a>
+      <ng-container *ngIf="item.showFiller">
+        <ul>
+          <li *ngFor="let sub of item.subHeadings">
+            {{ sub }}
+          </li>
+        </ul></ng-container
+      >
+    </div>
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <div class="fixed-nav">
+      <button
+        mat-icon-button
+        type="button"
+        id="toggleB"
+        (click)="drawer.toggle()"
+      >
+        <mat-icon>menu</mat-icon>
+      </button>
+    </div>
+    <app-main></app-main>
+  </div>
+</mat-drawer-container>

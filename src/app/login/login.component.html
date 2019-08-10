@@ -1,0 +1,34 @@
+<div class="main-login" fxLayout="row" fxLayoutAlign="space-between">
+  <div class="left-container"><img src="../assets/airplane.svg" /></div>
+  <div class="right-container">
+    <div class="form-content">
+      <img src="../assets/adminLogo.png" alt="Flight image" />
+
+      <h1 class="m-1" style="text-align:start">Sign in</h1>
+
+      <p class="m-1" style="width:100%!important">
+        <mat-form-field appearance="fill">
+          <mat-label>Fill form field</mat-label>
+          <input matInput placeholder="Placeholder" />
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+        </mat-form-field>
+      </p>
+
+      <p class="m-1" style="width:100%!important">
+        <mat-form-field appearance="fill">
+          <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+          <mat-label>Fill form field</mat-label>
+          <input matInput placeholder="Placeholder" />
+        </mat-form-field>
+      </p>
+
+      <a href="" class="m-1">Forgot Password?</a>
+
+      <div class="my-button">
+        <a [routerLink]="['/main']"
+          ><button mat-raised-button color="primary">Submit</button></a
+        >
+      </div>
+    </div>
+  </div>
+</div>

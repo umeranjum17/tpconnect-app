@@ -1,0 +1,43 @@
+.fixed-nav {
+  height: 50px;
+  background-color: white;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+mat-drawer {
+  background-color: black;
+  color: white;
+}
+a {
+  cursor: pointer;
+}
+.m-0 {
+  margin-bottom: 0.8rem;
+}
+.p1 {
+  padding: 0 0.7rem;
+}
+mat-icon {
+  font-weight: bolder;
+}
+span {
+  mat-icon {
+    font-size: 0.7rem;
+    margin: 0 0.54rem;
+
+    &.end {
+      margin-top: 0.4rem !important;
+    }
+  }
+}
+mat-icon {
+  &.start {
+    margin-right: -0.1rem;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+  }
+}

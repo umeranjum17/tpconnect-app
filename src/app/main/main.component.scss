@@ -1,0 +1,29 @@
+$base-color: #cc0c00;
+.main-component {
+  padding: 3rem;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.secondary-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+mat-form-field {
+  margin: 0 2rem;
+}
+label {
+  align-self: flex-start;
+  margin-bottom: 1.8rem;
+  font-size: 0.8rem;
+  color: $base-color;
+}
+.tertiary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

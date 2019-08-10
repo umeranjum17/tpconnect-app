@@ -1,0 +1,44 @@
+$base-color: #cc0c00;
+.left-container {
+  background-color: rgba($base-color, 0.717);
+  flex-basis: 40%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  img {
+    width: 100%;
+    background-image: url("../../assets/airplane.svg");
+  }
+}
+.right-container {
+  flex-basis: 60%;
+  height: 100vh;
+  justify-content: center;
+  align-self: center;
+
+  .form-content {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      align-self: start;
+      font-weight: normal;
+    }
+    img {
+      align-self: center;
+      height: 130px;
+      margin-bottom: 2rem;
+    }
+    a {
+      align-self: start;
+      color: $base-color;
+      text-decoration: none;
+    }
+  }
+}
