@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
 # Task Explanation
-Most of the tasks to be done are completed. This is by no means a completely perfect or refined version but contains an overall work and feel of the application . Like routing, OneWay databinding, Usage of ngfor loops ngif to generate UI components ,material design,datepickers inputs simple buttons. The rest of the task can be completed just by mere replication of the code with minor design changes more or less. 
+Most of the tasks to be done are completed. This is by no means a completely perfect or refined version but contains an overall work and feel of the application . Like routing, OneWay databinding, Usage of ngfor loops ngif to generate UI components ,material design,datepickers inputs simple buttons and use of scss was done there are examples of flexbox column and row with the different attributes of align items and justify content as well. The rest of the task can be completed just by mere replication of the code with minor design changes more or less. 
 
 ### Development server
 
