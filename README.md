@@ -2,6 +2,9 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
+# Task Explanation
+Most of the tasks to be done are completed. This is by no means a completely perfect or refined version but contains an overall work and feel of the application . Like routing, OneWay databinding, Usage of ngfor loops ngif to generate UI components ,material design. The rest of the task can be completed just by mere replication of the code more or less. 
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
